@@ -80,11 +80,11 @@ Follow these steps to manually apply the patch:
    ```
 2. Build the `libfranka` package:
    ```bash
-   catkin_make --pkg libfranka
+   catkin build libfranka
    ```
 3. Rebuild your entire workspace:
    ```bash
-   catkin_make
+   catkin build
    ```
 
 ## Notes
