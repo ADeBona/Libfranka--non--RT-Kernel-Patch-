@@ -11,6 +11,9 @@ The modifications described here allow you to:
 - Use `libfranka` on systems running non-realtime kernels.
 - Avoid errors related to missing realtime kernel capabilities.
 - Improve compatibility with a wider range of development environments.
+- Enable the use of `libfranka` on systems with NVIDIA GPUs, which often have constraints with realtime kernel support.
+- Facilitate development on workstations and laptops that do not support realtime kernels, broadening the accessibility for research and development.
+- Allow integration with other software and hardware that may not be compatible with realtime kernels.
 
 ## Manual Patch Instructions
 
